@@ -1,40 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto Front-end com React JS e Next JS
 
-## Getting Started
+Este projeto tem como objetivo desenvolver duas versões de um front-end web utilizando as tecnologias React JS e Next JS. Ao final do projeto, você estará capacitado para lidar com contextos reais de aplicação dessas tecnologias, incluindo a criação de componentes reutilizáveis e a definição de uma API REST interna com Next JS.
 
-First, install node_modules:
-``` bash
-npm install
-```
+## Objetivos
 
-After, run the development server:
-``` bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Explorar a sintaxe TypeScript** na implementação de entidades e controladores para projetos React JS e Next JS.
+- **Criar um front-end completo** baseado em componentes reutilizáveis utilizando React JS.
+- **Criar um front-end completo** baseado em componentes reutilizáveis utilizando Next JS.
+- **Utilizar o Next JS** para definir uma API no estilo REST, de uso interno, com acesso via função `fetch` oferecida no ambiente padrão do JavaScript.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React JS**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Next JS**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **TypeScript**: Superset de JavaScript que adiciona tipagem estática ao código.
+- **API REST**: Arquitetura de software para criação de APIs web.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Estrutura do Projeto
 
-## Learn More
+O projeto está dividido em duas partes principais:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Front-end com React JS**:
+   - Desenvolvimento de uma aplicação web utilizando React JS.
+   - Criação de componentes reutilizáveis.
+   - Integração com TypeScript para tipagem estática.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Front-end com Next JS**:
+   - Desenvolvimento de uma aplicação web utilizando Next JS.
+   - Criação de componentes reutilizáveis.
+   - Definição de uma API REST interna utilizando Next JS.
+   - Uso da função `fetch` para consumir a API.
